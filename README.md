@@ -11,11 +11,12 @@ Author: Steffen Heyne, MPI-IE Freiburg, Germany
     cd example/
     trackHub_generator.py -o mm10_upload mm10/
 
-Parses mm10/ directory and writes tracksDb.txt to mm10_upload/ and also links all used files to mm10_upload/
+Parses mm10/ directory and writes tracksDb.txt to mm10_upload/ 
+It also links (symbolic) all used files to mm10_upload/ for easy cloud upload afterwards.
 
 Recognized subdirs (in the example under mm10/)
      
-    Allowed dir names: *.multiwig
+    Allowed directory names: *.multiwig
                        *.composite
                        *.super
     
