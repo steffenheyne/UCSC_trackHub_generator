@@ -1,5 +1,8 @@
-# UCSC_trackHub_generator
-script that parses a local directory structure and maps this to a UCSC trackDb.txt config
+# UCSC trackHub generator
+
+python script to creates a UCSC trackhub configuration from local directory structure
+
+It parses a local directory structure and maps this to a UCSC trackDb.txt config
 
 Author: Steffen Heyne, MPI-IE Freiburg, Germany
 
